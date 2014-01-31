@@ -1,0 +1,87 @@
+{
+  "Unit Tests": {
+    "coverage": {
+      "/Users/kyleowens/Documents/CoinPlay/coinplay/app/controllers/application_controller.rb": [
+        1,
+        1,
+        null
+      ],
+      "/Users/kyleowens/Documents/CoinPlay/coinplay/app/helpers/application_helper.rb": [
+        1,
+        null
+      ],
+      "/Users/kyleowens/Documents/CoinPlay/coinplay/app/models/game.rb": [
+        1,
+        1,
+        null,
+        null,
+        1,
+        1,
+        null,
+        null
+      ],
+      "/Users/kyleowens/Documents/CoinPlay/coinplay/app/models/user.rb": [
+        1,
+        1,
+        null,
+        1,
+        null,
+        null,
+        1,
+        1,
+        null,
+        null,
+        null,
+        1,
+        1,
+        1,
+        1,
+        null,
+        1,
+        1,
+        1,
+        null,
+        null
+      ],
+      "/Users/kyleowens/Documents/CoinPlay/coinplay/app/models/user_game_profile.rb": [
+        1,
+        1,
+        null,
+        null,
+        1,
+        1,
+        null,
+        null,
+        null,
+        1,
+        null,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null,
+        null,
+        null,
+        null,
+        1,
+        1,
+        0,
+        0,
+        0,
+        null,
+        null,
+        null,
+        1,
+        0,
+        0,
+        0,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    "timestamp": 1391143295
+  }
+}
