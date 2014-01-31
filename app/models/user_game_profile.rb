@@ -18,6 +18,9 @@ class UserGameProfile < ActiveRecord::Base
   #validate :valid_game_id
   #validate :valid_user_id
 
+  # Constants
+  LOL_REGIONS = [["NA", 0], ["KR", 1], ["EUNE", 2], ["EUW", 3]]
+
   private
   def valid_game_id
   	game_ids = Game.all.map{|g| g.id}
