@@ -30,6 +30,10 @@ class UserTest < ActiveSupport::TestCase
 		teardown do
 			@user.destroy
 		end
+
+		should "have a working authenticate method" do
+			assert User.authenticate("bennybits", "coinmaster123")
+		end
 	end
 
 end

@@ -18,4 +18,8 @@ class User < ActiveRecord::Base
   validates_length_of :username, :minimum => 6, :maximum => 12
   validates_length_of :password, :minimum => 8
 
+  def self.authenticate(username, password)
+    find_by_username(username).try(:authenticate, password)
+  end
+
 end
