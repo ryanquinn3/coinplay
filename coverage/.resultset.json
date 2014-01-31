@@ -18,6 +18,9 @@
         1,
         1,
         null,
+        null,
+        1,
+        null,
         null
       ],
       "/Users/kyleowens/Documents/CoinPlay/coinplay/app/models/user.rb": [
@@ -82,6 +85,6 @@
         null
       ]
     },
-    "timestamp": 1391143295
+    "timestamp": 1391143468
   }
 }
