@@ -1,7 +1,9 @@
 require 'test_helper'
 
 class UserGameProfileTest < ActiveSupport::TestCase
-  # test "the truth" do
-  #   assert true
-  # end
+
+	# Relationship tests
+	should belong_to(:users)
+	should belong_to(:games)
+
 end

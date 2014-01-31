@@ -1,7 +1,9 @@
 require 'test_helper'
 
 class GameTest < ActiveSupport::TestCase
-  # test "the truth" do
-  #   assert true
-  # end
+
+	# Relationship tests
+	should have_many(:user_game_profiles)
+	should have_many(:users).through(:user_game_profiles)
+
 end

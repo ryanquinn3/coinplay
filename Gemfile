@@ -36,3 +36,10 @@ gem 'jquery-rails'
 
 # To use debugger
 # gem 'debugger'
+
+group :test do
+	gem 'shoulda'
+	gem 'shoulda-matchers'
+	gem 'factory_girl_rails'
+	gem 'simplecov'
+end
