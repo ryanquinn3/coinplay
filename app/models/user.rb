@@ -14,6 +14,8 @@ class User < ActiveRecord::Base
   validates_presence_of :password_confirmation, :on => :create 
   validates_confirmation_of :password, :message => "does not match"
 
+  validates_uniqueness_of :username
+
   validates_numericality_of :bitcoin_balance
   validates_length_of :username, :minimum => 6, :maximum => 12
   validates_length_of :password, :minimum => 8

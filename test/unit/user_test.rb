@@ -14,6 +14,8 @@ class UserTest < ActiveSupport::TestCase
 	should validate_confirmation_of(:password)
 	should have_secure_password
 
+	should validate_uniqueness_of(:username)
+
 	should validate_numericality_of(:bitcoin_balance)
 	should ensure_length_of(:username).is_at_least(6).is_at_most(12)
 	should ensure_length_of(:password).is_at_least(8)
