@@ -4,6 +4,7 @@ class CreateUsers < ActiveRecord::Migration
       t.string :username
       t.string :password_digest
       t.float :bitcoin_balance, :default => 0
+      t.string :type, :default => "player"
       t.boolean :active, :default => true
 
       t.timestamps
