@@ -6,6 +6,7 @@ class Game < ActiveRecord::Base
   has_many :users, :through => :user_game_profiles
 
   has_many :maps
+  has_many :game_types
 
   # Validations
   validates_presence_of :name, :api_url
