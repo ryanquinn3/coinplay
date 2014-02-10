@@ -119,6 +119,9 @@
         1,
         null,
         null,
+        null,
+        1,
+        null,
         null
       ],
       "/Users/kyleowens/Documents/CoinPlay/coinplay/app/models/game.rb": [
@@ -129,6 +132,8 @@
         1,
         1,
         null,
+        1,
+        null,
         null,
         1,
         null,
@@ -141,6 +146,19 @@
         null,
         null,
         null,
+        null,
+        null
+      ],
+      "/Users/kyleowens/Documents/CoinPlay/coinplay/app/models/map.rb": [
+        1,
+        1,
+        null,
+        null,
+        1,
+        null,
+        null,
+        1,
+        1,
         null,
         null
       ],
@@ -186,6 +204,6 @@
         null
       ]
     },
-    "timestamp": 1391147501
+    "timestamp": 1392070764
   }
 }
