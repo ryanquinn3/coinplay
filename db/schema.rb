@@ -39,6 +39,7 @@ ActiveRecord::Schema.define(:version => 20140131044523) do
     t.string   "username"
     t.string   "password_digest"
     t.float    "bitcoin_balance", :default => 0.0
+    t.integer  "type",            :default => 1
     t.boolean  "active",          :default => true
     t.datetime "created_at",                        :null => false
     t.datetime "updated_at",                        :null => false

@@ -24,4 +24,7 @@ class User < ActiveRecord::Base
     find_by_username(username).try(:authenticate, password)
   end
 
+  # Constants
+  TYPES = [['player', :player],['admin', :admin]]
+
 end
