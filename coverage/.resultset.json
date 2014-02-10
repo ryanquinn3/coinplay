@@ -134,6 +134,7 @@
         null,
         1,
         1,
+        1,
         null,
         null,
         1,
@@ -156,8 +157,20 @@
         null,
         null,
         1,
+        1,
         null,
         null,
+        1,
+        1,
+        null,
+        null
+      ],
+      "/Users/kyleowens/Documents/CoinPlay/coinplay/app/models/lobby.rb": [
+        1,
+        1,
+        null,
+        null,
+        1,
         1,
         1,
         null,
@@ -168,6 +181,7 @@
         1,
         null,
         null,
+        1,
         1,
         null,
         null,
@@ -218,6 +232,6 @@
         null
       ]
     },
-    "timestamp": 1392071181
+    "timestamp": 1392074828
   }
 }

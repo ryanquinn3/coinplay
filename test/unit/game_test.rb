@@ -8,6 +8,7 @@ class GameTest < ActiveSupport::TestCase
 
 	should have_many(:maps)
 	should have_many(:game_types)
+	should have_many(:lobbies)
 
 	# Validation tests
 	should validate_presence_of(:name)

@@ -4,6 +4,7 @@ class MapTest < ActiveSupport::TestCase
 
 	# Relationship tests
 	should belong_to(:games)
+	should have_many(:lobbies)
 
 	# Validation tests
 	should validate_presence_of(:game_id)
