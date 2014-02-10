@@ -1,5 +1,5 @@
 class User < ActiveRecord::Base
-  attr_accessible :active, :bitcoin_balance, :password, :password_confirmation, :username
+  attr_accessible :active, :bitcoin_balance, :type, :password, :password_confirmation, :username
 
   has_secure_password
 
