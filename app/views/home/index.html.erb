@@ -4,7 +4,19 @@
 	<title>Home Page</title>
 </head>
 <body>
+	<div class="container">
+	
+
 	<h1>HERE!</h1>
+	<%if logged_in?%>
 	<h5>Hello, <%= current_user.username %></h5>
+
+	<p> <%= link_to "Log out", logout_path %> </p>
+	<% else %>
+	<P> <%= link_to "Sign In", login_path %> </p>
+	<p> <%= link_to "Sign Up", signup_path %> </p>
+	<%end %>
+
+</div>
 </body>
 </html>
