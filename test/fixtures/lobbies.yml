@@ -1,0 +1,19 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  team_one_id: 1
+  team_two_id: 1
+  map_id: 1
+  game_type_id: 1
+  name: MyString
+  password: MyString
+  wager_amount: 1.5
+
+two:
+  team_one_id: 1
+  team_two_id: 1
+  map_id: 1
+  game_type_id: 1
+  name: MyString
+  password: MyString
+  wager_amount: 1.5

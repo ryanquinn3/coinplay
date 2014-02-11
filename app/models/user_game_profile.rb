@@ -24,16 +24,16 @@ class UserGameProfile < ActiveRecord::Base
   private
   def valid_game_id
   	game_ids = Game.all.map{|g| g.id}
-	unless game_ids.include?(self.game_id)
-		errors.add(:game, "is not a valid game")
-	end
+  	unless game_ids.include?(self.game_id)
+  		errors.add(:game, "is not a valid game")
+  	end
   end
 
   def valid_user_id
   	user_ids = User.all.map{|u| u.id}
-	unless user_ids.include?(self.user_id)
-		errors.add(:user, "is not a valid user")
-	end
+  	unless user_ids.include?(self.user_id)
+  		errors.add(:user, "is not a valid user")
+  	end
   end
 
 end
